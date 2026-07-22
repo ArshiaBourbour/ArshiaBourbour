@@ -11,6 +11,8 @@ body {
 .container {
   height: 31.25em;
   width: 21.87em;
+  display: flex;
+  justify-content: center;
 }
 .rope {
   height: 13.62em;
@@ -27,7 +29,10 @@ body {
   height: 1.12em;
   width: 7.5em;
   background-color: transparent;
-  box-shadow: 0 0 0 0.12em #140243, 0 0 0 1.06em #1b1676, 0 0 0 1.18em #140243;
+  box-shadow:
+    0 0 0 0.12em #140243,
+    0 0 0 1.06em #1b1676,
+    0 0 0 1.18em #140243;
   top: 12.5em;
   border-radius: 3.12em;
 }
@@ -174,8 +179,9 @@ body {
   width: 4.06em;
   background-color: #e32832;
   border-radius: 50% 50% 50% 50% / 54% 54% 46% 46%;
-  border: 0.12em solid #140243;
-  top: 6.56em;
+  border: 0.12em solid #140243;#e32832
+  position:absolute;
+  top:130px;
 }
 .eye-l,
 .eye-r {
@@ -207,13 +213,15 @@ body {
 
 .profile-info {
   position: absolute;
+  border-radius:20px;
+  padding:30px 10px;
   top: 32em;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
   max-width: 700px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   font-family: Arial, sans-serif;
 }
 
@@ -233,14 +241,14 @@ body {
 .profile-info p {
   margin: 1em 0;
   line-height: 1.6;
+  line-clamp: 5;
 }
 
-.profile-info strong {
+.profile-info h2 {
   color: #00a8ff;
 }
 
 @media screen and (max-width: 600px) {
-
   .profile-info {
     top: 31em;
   }
@@ -256,5 +264,10 @@ body {
   .profile-info p {
     font-size: 0.85em;
   }
-
 }
+.spider-web {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
