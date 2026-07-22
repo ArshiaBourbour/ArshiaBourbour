@@ -1,7 +1,5 @@
 <div align="center">
 
-<a href="https://arshiabourbour.github.io/ArshiaBourbour/">
-  <h2>🕸️ Open My Interactive Profile</h2>
-</a>
+## [🕸️ Open My Interactive Profile](https://arshiabourbour.github.io/ArshiaBourbour/)
 
 </div>
